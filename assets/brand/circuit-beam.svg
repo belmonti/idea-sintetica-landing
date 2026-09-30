@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" fill="none">
+  <defs>
+    <linearGradient id="beamGrad" x1="0" y1="60" x2="1200" y2="60" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#00f5c4" stop-opacity="0" />
+      <stop offset="30%" stop-color="#00f5c4" stop-opacity="0.8" />
+      <stop offset="50%" stop-color="#ffffff" />
+      <stop offset="70%" stop-color="#b4ff39" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#b4ff39" stop-opacity="0" />
+    </linearGradient>
+
+    <filter id="beamGlow" x="-10%" y="-30%" width="120%" height="160%">
+      <feGaussianBlur stdDeviation="5" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Central Laser Track -->
+  <line x1="100" y1="60" x2="1100" y2="60" stroke="url(#beamGrad)" stroke-width="2" filter="url(#beamGlow)" />
+  <line x1="250" y1="60" x2="950" y2="60" stroke="#ffffff" stroke-width="1" />
+
+  <!-- Integrated Tech Nodal Junctions -->
+  <g filter="url(#beamGlow)">
+    <circle cx="350" cy="60" r="5" fill="#00f5c4" />
+    <circle cx="600" cy="60" r="7" fill="#ffffff" />
+    <circle cx="850" cy="60" r="5" fill="#b4ff39" />
+  </g>
+
+  <!-- Outer diamond halos around nodes -->
+  <polygon points="350,52 358,60 350,68 342,60" stroke="#00f5c4" stroke-width="1.2" fill="none" opacity="0.6" />
+  <polygon points="600,48 612,60 600,72 588,60" stroke="#ffffff" stroke-width="1.5" fill="none" opacity="0.8" />
+  <polygon points="850,52 858,60 850,68 842,60" stroke="#b4ff39" stroke-width="1.2" fill="none" opacity="0.6" />
+</svg>

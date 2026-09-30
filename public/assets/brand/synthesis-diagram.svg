@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 420" fill="none">
+  <defs>
+    <linearGradient id="chaosInputGrad" x1="50" y1="200" x2="350" y2="200" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#ef4444" stop-opacity="0.2" />
+      <stop offset="60%" stop-color="#f59e0b" stop-opacity="0.6" />
+      <stop offset="100%" stop-color="#00f5c4" stop-opacity="0.9" />
+    </linearGradient>
+
+    <linearGradient id="coherentOutputGrad" x1="550" y1="210" x2="1050" y2="210" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#00f5c4" />
+      <stop offset="50%" stop-color="#06b6d4" />
+      <stop offset="100%" stop-color="#b4ff39" />
+    </linearGradient>
+
+    <radialGradient id="centerCoreGlow" cx="450" cy="210" r="160" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#00f5c4" stop-opacity="0.4" />
+      <stop offset="40%" stop-color="#06b6d4" stop-opacity="0.15" />
+      <stop offset="100%" stop-color="#000000" stop-opacity="0" />
+    </radialGradient>
+
+    <filter id="diagramGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Ambient Backdrop Glow -->
+  <circle cx="450" cy="210" r="140" fill="url(#centerCoreGlow)" />
+
+  <!-- ================= LADO IZQUIERDO: EL CAOS (DISPERSIÓN) ================= -->
+  <!-- Chaotic Nodes -->
+  <g class="chaos-cluster" opacity="0.85">
+    <!-- Node 1: Chat personal perdido -->
+    <circle cx="80" cy="90" r="7" fill="#ef4444" opacity="0.7" />
+    <text x="96" y="94" fill="#94a3b8" font-family="'JetBrains Mono', monospace" font-size="11">Chats sueltos</text>
+    <path d="M87 93 C 160 130, 240 80, 380 185" stroke="#ef4444" stroke-width="1.5" stroke-dasharray="4 6" opacity="0.5" />
+
+    <!-- Node 2: Hojas de cálculo desactualizadas -->
+    <circle cx="60" cy="180" r="6" fill="#f59e0b" opacity="0.6" />
+    <text x="76" y="184" fill="#94a3b8" font-family="'JetBrains Mono', monospace" font-size="11">Excel manual</text>
+    <path d="M66 180 C 180 160, 260 230, 375 205" stroke="#f59e0b" stroke-width="1.5" stroke-dasharray="6 4" opacity="0.5" />
+
+    <!-- Node 3: Leads sin responder -->
+    <circle cx="90" cy="270" r="8" fill="#ef4444" opacity="0.8" />
+    <text x="108" y="274" fill="#94a3b8" font-family="'JetBrains Mono', monospace" font-size="11">Leads fríos</text>
+    <path d="M98 268 C 190 280, 270 240, 380 220" stroke="#ef4444" stroke-width="1.8" stroke-dasharray="3 5" opacity="0.6" />
+
+    <!-- Node 4: Tareas duplicadas -->
+    <circle cx="70" cy="350" r="6" fill="#f59e0b" opacity="0.6" />
+    <text x="86" y="354" fill="#94a3b8" font-family="'JetBrains Mono', monospace" font-size="11">Fricción manual</text>
+    <path d="M76 348 C 170 330, 280 290, 385 235" stroke="#f59e0b" stroke-width="1.4" stroke-dasharray="5 7" opacity="0.4" />
+  </g>
+
+  <!-- ================= CENTRO: EL NÚCLEO SINTETIZADOR ================= -->
+  <!-- Concentric Alignment Rings -->
+  <circle cx="450" cy="210" r="95" stroke="#00f5c4" stroke-width="1.2" stroke-dasharray="4 8" opacity="0.4" />
+  <circle cx="450" cy="210" r="75" stroke="#b4ff39" stroke-width="1" stroke-dasharray="3 9" opacity="0.5" />
+
+  <!-- Central Hexagon / Crystal Chamber -->
+  <polygon points="450,150 495,176 495,244 450,270 405,244 405,176" 
+           stroke="url(#coherentOutputGrad)" stroke-width="2.5" fill="rgba(8, 15, 27, 0.85)" filter="url(#diagramGlow)" />
+
+  <!-- Bulb Silhouette inside the Synthesis Engine -->
+  <path d="M435 195 C435 183 441 175 450 175 C459 175 465 183 465 195 C465 204 460 210 457 215 V222 H443 V215 C440 210 435 204 435 195 Z" 
+        stroke="#00f5c4" stroke-width="1.8" fill="rgba(0, 245, 196, 0.2)" />
+  <line x1="444" y1="226" x2="456" y2="226" stroke="#b4ff39" stroke-width="1.8" />
+  <circle cx="450" cy="195" r="4.5" fill="#ffffff" filter="url(#diagramGlow)" />
+
+  <!-- Status text under core -->
+  <text x="450" y="300" text-anchor="middle" fill="#00f5c4" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" letter-spacing="1">
+    SÍNTESIS EN TIEMPO REAL
+  </text>
+
+  <!-- ================= LADO DERECHO: EL SISTEMA COHERENTE ================= -->
+  <!-- Coherent Illuminated Parallel Output Laser Lines -->
+  <!-- Stream 1: CRM & Contactos -->
+  <path d="M495 180 H 680 C 740 180, 780 100, 840 100 H 980" stroke="url(#coherentOutputGrad)" stroke-width="2.2" filter="url(#diagramGlow)" />
+  <circle cx="985" cy="100" r="6" fill="#00f5c4" filter="url(#diagramGlow)" />
+  <text x="1005" y="104" fill="#ffffff" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="13">CRM 360° Sincronizado</text>
+
+  <!-- Stream 2: WhatsApp Omnicanal -->
+  <path d="M495 198 H 700 C 750 198, 770 170, 830 170 H 980" stroke="url(#coherentOutputGrad)" stroke-width="2.5" filter="url(#diagramGlow)" />
+  <circle cx="985" cy="170" r="7" fill="#b4ff39" filter="url(#diagramGlow)" />
+  <text x="1005" y="174" fill="#ffffff" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="13">WhatsApp &amp; Bandeja Única</text>
+
+  <!-- Stream 3: Automatizaciones 24/7 -->
+  <path d="M495 222 H 700 C 750 222, 770 250, 830 250 H 980" stroke="url(#coherentOutputGrad)" stroke-width="2.5" filter="url(#diagramGlow)" />
+  <circle cx="985" cy="250" r="7" fill="#00f5c4" filter="url(#diagramGlow)" />
+  <text x="1005" y="254" fill="#ffffff" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="13">Workflows &amp; Disparadores</text>
+
+  <!-- Stream 4: Calendario sin ausencias -->
+  <path d="M495 240 H 680 C 740 240, 780 320, 840 320 H 980" stroke="url(#coherentOutputGrad)" stroke-width="2.2" filter="url(#diagramGlow)" />
+  <circle cx="985" cy="320" r="6" fill="#b4ff39" filter="url(#diagramGlow)" />
+  <text x="1005" y="324" fill="#ffffff" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="13">Agenda &amp; Citas Confirmadas</text>
+
+  <!-- Flow Particle Pulses (Energy in motion) -->
+  <circle cx="620" cy="180" r="3" fill="#ffffff" filter="url(#diagramGlow)" />
+  <circle cx="730" cy="190" r="3.5" fill="#ffffff" filter="url(#diagramGlow)" />
+  <circle cx="890" cy="250" r="3.5" fill="#ffffff" filter="url(#diagramGlow)" />
+  <circle cx="650" cy="240" r="3" fill="#ffffff" filter="url(#diagramGlow)" />
+</svg>

@@ -1,0 +1,158 @@
+[
+  {
+    "brand": "Calendly",
+    "path": "assets/tools/calendly.svg",
+    "source": "Simple Icons (Official Calendly Glyph & Color #006BFF)",
+    "size": 1905
+  },
+  {
+    "brand": "Zapier",
+    "path": "assets/tools/zapier.svg",
+    "source": "Simple Icons (Official Zapier Asterisk & Color #FF4F00)",
+    "size": 2847
+  },
+  {
+    "brand": "HubSpot",
+    "path": "assets/tools/hubspot.svg",
+    "source": "Wikimedia Commons (Official HubSpot Vector)",
+    "size": 1826
+  },
+  {
+    "brand": "ActiveCampaign",
+    "path": "assets/tools/activecampaign.svg",
+    "source": "Wikimedia Commons (Official ActiveCampaign Vector)",
+    "size": 14410
+  },
+  {
+    "brand": "ClickFunnels",
+    "path": "assets/tools/clickfunnels.png",
+    "source": "ClickFunnels Official Brand CDN (High-res transparent PNG)",
+    "size": 13524
+  },
+  {
+    "brand": "Typeform",
+    "path": "assets/tools/typeform.svg",
+    "source": "Simple Icons (Official Typeform Mark in Charcoal #262627)",
+    "size": 1786
+  },
+  {
+    "brand": "ManyChat",
+    "path": "assets/tools/manychat.svg",
+    "source": "ManyChat Official CDN (https://mccdn.me - Official Vector Logo in #111827)",
+    "size": 6829
+  },
+  {
+    "brand": "Hootsuite",
+    "path": "assets/tools/hootsuite.svg",
+    "source": "Simple Icons (Official Hootsuite Owly Mark in Charcoal #14191E)",
+    "size": 1451
+  },
+  {
+    "brand": "Kajabi",
+    "path": "assets/tools/kajabi.svg",
+    "source": "Wikimedia Commons (Official Kajabi Vector Logo)",
+    "size": 5288
+  },
+  {
+    "brand": "Birdeye",
+    "path": "assets/tools/birdeye.png",
+    "source": "Birdeye Official CDN (High-res transparent PNG)",
+    "size": 1771
+  },
+  {
+    "brand": "Salesforce",
+    "path": "assets/tools/salesforce.svg",
+    "source": "Wikimedia Commons (Official Salesforce Cloud Vector)",
+    "size": 8075
+  },
+  {
+    "brand": "Mailchimp",
+    "path": "assets/tools/mailchimp.svg",
+    "source": "Wikimedia Commons (Official Mailchimp Freddie Vector)",
+    "size": 12132
+  },
+  {
+    "brand": "WhatsApp",
+    "path": "assets/integrations/whatsapp.svg",
+    "source": "Wikimedia Commons (Official Multi-Color WhatsApp Vector)",
+    "size": 2501
+  },
+  {
+    "brand": "Stripe",
+    "path": "assets/integrations/stripe.svg",
+    "source": "Wikimedia Commons (Official Stripe Brand Vector)",
+    "size": 1876
+  },
+  {
+    "brand": "Google",
+    "path": "assets/integrations/google.svg",
+    "source": "Wikimedia Commons (Official 4-Color Google G Vector)",
+    "size": 742
+  },
+  {
+    "brand": "Meta",
+    "path": "assets/integrations/meta.svg",
+    "source": "Wikimedia Commons (Official Meta Platforms Infinity Loop Vector)",
+    "size": 3383
+  },
+  {
+    "brand": "Shopify",
+    "path": "assets/integrations/shopify.svg",
+    "source": "Wikimedia Commons (Official Shopify Bag & Wordmark Vector)",
+    "size": 2724
+  },
+  {
+    "brand": "Slack",
+    "path": "assets/integrations/slack.svg",
+    "source": "Wikimedia Commons (Official 4-Color Slack Octothorpe Vector)",
+    "size": 1019
+  },
+  {
+    "brand": "TikTok",
+    "path": "assets/integrations/tiktok.svg",
+    "source": "Official TikTok Brand Colors (Cyan #25F4EE, Magenta #FE2C55 & White Note Vector)",
+    "size": 1980
+  },
+  {
+    "brand": "LinkedIn",
+    "path": "assets/integrations/linkedin.svg",
+    "source": "Wikimedia Commons (Official LinkedIn Rounded Badge & In Vector)",
+    "size": 1139
+  },
+  {
+    "brand": "Zoom",
+    "path": "assets/integrations/zoom.svg",
+    "source": "Simple Icons (Official Zoom Video Camera Glyph & Color #0B5CFF)",
+    "size": 852
+  },
+  {
+    "brand": "QuickBooks",
+    "path": "assets/integrations/quickbooks.svg",
+    "source": "Wikimedia Commons (Official Intuit QuickBooks Vector)",
+    "size": 3207
+  },
+  {
+    "brand": "Twilio",
+    "path": "assets/integrations/twilio.svg",
+    "source": "Wikimedia Commons (Official Twilio Red Roundel Vector)",
+    "size": 1587
+  },
+  {
+    "brand": "Mailgun",
+    "path": "assets/integrations/mailgun.svg",
+    "source": "Simple Icons (Official Mailgun Rocket Glyph & Color #F06B66)",
+    "size": 795
+  },
+  {
+    "brand": "WordPress",
+    "path": "assets/integrations/wordpress.svg",
+    "source": "Wikimedia Commons (Official WordPress Blue Roundel Vector)",
+    "size": 1487
+  },
+  {
+    "brand": "PayPal",
+    "path": "assets/integrations/paypal.svg",
+    "source": "Wikimedia Commons (Official PayPal Double-P Vector)",
+    "size": 5588
+  }
+]

@@ -1,0 +1,248 @@
+/* ====================================================================
+   IDEA SINTÉTICA — BRAND VISUALS & ENERGETIC ENHANCEMENTS
+   Luminous circuits, photon traces, synthetic bulb emblems,
+   and visual diagram conduits.
+   ==================================================================== */
+
+/* Hero Synthetic Core Visual Component */
+.hero-brand-emblem-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 28px;
+}
+
+.hero-brand-emblem {
+  position: relative;
+  width: 90px;
+  height: 90px;
+  border-radius: 22px;
+  background: radial-gradient(circle at 50% 50%, rgba(0, 245, 196, 0.2) 0%, rgba(8, 14, 26, 0.9) 70%);
+  border: 1px solid var(--border-teal-glow);
+  box-shadow: 
+    0 0 35px rgba(0, 245, 196, 0.4),
+    inset 0 0 15px rgba(0, 245, 196, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform var(--transition-normal), box-shadow var(--transition-normal);
+  cursor: pointer;
+}
+
+.hero-brand-emblem:hover {
+  transform: scale(1.08) rotate(3deg);
+  box-shadow: 
+    0 0 50px rgba(0, 245, 196, 0.6),
+    0 0 20px rgba(180, 255, 57, 0.4);
+}
+
+.hero-brand-emblem img {
+  width: 78px;
+  height: 78px;
+  border-radius: 18px;
+  object-fit: cover;
+  filter: drop-shadow(0 0 10px rgba(0, 245, 196, 0.5));
+}
+
+.emblem-pulse-ring {
+  position: absolute;
+  inset: -8px;
+  border-radius: 28px;
+  border: 1.5px solid var(--accent-teal);
+  opacity: 0.5;
+  animation: pulseRing 2.8s infinite ease-out;
+  pointer-events: none;
+}
+
+/* Hero 3D Concept Art Floating Feature */
+.hero-art-showcase {
+  position: relative;
+  margin: 0 auto 36px;
+  max-width: 240px;
+}
+
+.hero-art-glass-card {
+  position: relative;
+  border-radius: var(--radius-xl);
+  overflow: hidden;
+  border: 1px solid var(--border-teal-glow);
+  box-shadow: 
+    0 20px 60px -10px rgba(0, 245, 196, 0.3),
+    0 30px 80px rgba(0, 0, 0, 0.8);
+  background: #080d18;
+}
+
+.hero-art-glass-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: transform var(--transition-smooth);
+}
+
+.hero-art-glass-card:hover img {
+  transform: scale(1.06);
+}
+
+/* Inter-Section Circuit Beam Divider */
+.section-beam-divider {
+  width: 100%;
+  max-width: 1000px;
+  margin: -40px auto 40px;
+  position: relative;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+}
+
+.section-beam-divider svg {
+  width: 100%;
+  height: auto;
+}
+
+/* Traveling Photon on Line */
+.photon-track-container {
+  position: relative;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent 0%, rgba(255, 255, 255, 0.08) 20%, rgba(0, 245, 196, 0.3) 50%, rgba(180, 255, 57, 0.3) 80%, transparent 100%);
+  margin: 60px 0;
+  overflow: hidden;
+}
+
+.photon-beam {
+  position: absolute;
+  top: -2px;
+  left: -100px;
+  width: 80px;
+  height: 6px;
+  background: linear-gradient(90deg, transparent, #00f5c4, #ffffff, #b4ff39, transparent);
+  border-radius: 4px;
+  filter: blur(1px);
+  animation: photonTravel 3.5s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+}
+
+@keyframes photonTravel {
+  0% {
+    left: -100px;
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    left: 105%;
+    opacity: 0;
+  }
+}
+
+/* Visual Synthesis Blueprint Container */
+.synthesis-graphic-stage {
+  margin: 32px 0 20px;
+  background: rgba(4, 7, 14, 0.85);
+  border: 1px solid var(--border-hairline);
+  border-radius: var(--radius-lg);
+  padding: 24px 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+.synthesis-graphic-stage svg {
+  width: 100%;
+  height: auto;
+  max-height: 380px;
+}
+
+/* Tethered Energy Lines for Hero Satellites */
+.satellite-tether-left {
+  position: absolute;
+  top: 12px;
+  left: 220px;
+  width: 140px;
+  height: 2px;
+  background: linear-gradient(90deg, var(--accent-teal), transparent);
+  opacity: 0.4;
+  pointer-events: none;
+}
+
+.satellite-tether-right {
+  position: absolute;
+  bottom: 16px;
+  right: 220px;
+  width: 140px;
+  height: 2px;
+  background: linear-gradient(270deg, var(--accent-lime), transparent);
+  opacity: 0.4;
+  pointer-events: none;
+}
+
+/* Animated Pulse Step Icon in How It Works */
+.flow-step-icon-box {
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+  background: rgba(0, 245, 196, 0.1);
+  border: 1px solid rgba(0, 245, 196, 0.3);
+  color: var(--accent-teal);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 16px;
+  box-shadow: 0 0 15px rgba(0, 245, 196, 0.2);
+  transition: all var(--transition-fast);
+}
+
+.flow-step-box:hover .flow-step-icon-box {
+  background: var(--accent-teal);
+  color: #030810;
+  box-shadow: 0 0 25px rgba(0, 245, 196, 0.6);
+  transform: scale(1.08);
+}
+
+/* Continuous Luminous Connector Line for How It Works */
+.timeline-steps-flow {
+  position: relative;
+}
+
+.timeline-steps-flow::before {
+  content: '';
+  position: absolute;
+  top: 30px;
+  bottom: 30px;
+  left: -24px;
+  width: 2px;
+  background: linear-gradient(180deg, rgba(0, 245, 196, 0.6) 0%, rgba(6, 182, 212, 0.4) 50%, rgba(180, 255, 57, 0.6) 100%);
+  box-shadow: 0 0 10px rgba(0, 245, 196, 0.3);
+}
+
+/* Final CTA Architectural Wireframe Backdrop */
+.cta-bulb-backdrop {
+  position: absolute;
+  right: -60px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 440px;
+  height: 440px;
+  opacity: 0.22;
+  pointer-events: none;
+  z-index: 0;
+  transition: opacity var(--transition-normal);
+}
+
+.final-cta-container:hover .cta-bulb-backdrop {
+  opacity: 0.35;
+}
+
+.cta-bulb-backdrop svg {
+  width: 100%;
+  height: 100%;
+}
+
+/* Subtle Kinetic Glow for Brand Icon */
+.brand-icon-wrapper svg {
+  animation: glowShift 5s infinite ease-in-out;
+}
