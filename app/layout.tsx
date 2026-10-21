@@ -56,6 +56,11 @@ export default function RootLayout({
   return (
     <html lang="es" className={`${plusJakartaSans.variable} ${jetbrainsMono.variable}`}>
       <head>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `!function(w,d,s,u){if(w.oaiq)return;var q=function(){q.q.push(arguments)};q.q=[];w.oaiq=q;var j=d.createElement(s);j.async=1;j.src=u;var f=d.getElementsByTagName(s)[0];f.parentNode.insertBefore(j,f)}(window,document,"script","https://bzrcdn.openai.com/sdk/oaiq.min.js");oaiq("init",{pixelId:"4Av5RXA8DKaLEnKRFTtRLW",debug:true});`,
+          }}
+        />
         <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg" />
       </head>
       <body>
