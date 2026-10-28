@@ -209,6 +209,11 @@ function initVideoModal() {
 
   const open = (e) => {
     if (e) e.preventDefault();
+    const heroVid = document.getElementById('heroVideo');
+    if (heroVid) {
+      heroVid.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      return;
+    }
     if (typeof CONFIG !== 'undefined' && CONFIG.video && CONFIG.video.embedUrl) {
       iframe.setAttribute('src', CONFIG.video.embedUrl);
     }

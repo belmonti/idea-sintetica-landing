@@ -110,7 +110,15 @@ export default function HomePage() {
     setOpenFaqIndex(openFaqIndex === index ? null : index);
   };
 
-  const openVideo = () => setVideoModalOpen(true);
+  const openVideo = (e?: React.MouseEvent) => {
+    if (e) e.preventDefault();
+    const heroVid = document.getElementById('heroVideo');
+    if (heroVid) {
+      heroVid.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    } else {
+      setVideoModalOpen(true);
+    }
+  };
   const closeVideo = () => setVideoModalOpen(false);
 
   return (
@@ -354,13 +362,10 @@ export default function HomePage() {
               </div>
             </div>
 
-            {/* Badge Flotante Inferior Derecho: Botón de Demostración Video */}
+            {/* Badge Flotante Inferior Derecho: Recorrido Guiado */}
             <div
-              className="hero-badge-overlay hero-badge-bottom-right open-video-btn"
-              role="button"
-              tabIndex={0}
-              title="Ver demostración en video"
-              onClick={openVideo}
+              className="hero-badge-overlay hero-badge-bottom-right"
+              title="Demostración oficial en video"
             >
               <div className="badge-icon-box badge-icon-teal" style={{ background: 'rgba(0, 245, 196, 0.25)' }}>
                 <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18">
@@ -368,17 +373,15 @@ export default function HomePage() {
                 </svg>
               </div>
               <div className="badge-text-group">
-                <div className="badge-title">Ver Video de Recorrido</div>
-                <div className="badge-sub mono">4 minutos guiados →</div>
+                <div className="badge-title">Video de Recorrido</div>
+                <div className="badge-sub mono">Demostración oficial • 4 min</div>
               </div>
             </div>
 
-            {/* Ventana Principal con Fotografía Editorial y Máscara */}
+            {/* Ventana Principal con Reproductor de Video Nativo */}
             <div
-              className="hero-human-viewport open-video-btn"
-              style={{ cursor: 'pointer' }}
-              title="Haz clic para ver el recorrido interactivo"
-              onClick={openVideo}
+              className="hero-human-viewport"
+              id="heroVideo"
             >
               <div className="app-chrome-bar">
                 <div className="chrome-controls">
@@ -388,21 +391,22 @@ export default function HomePage() {
                 </div>
                 <div className="chrome-status-tag mono">
                   <span className="pulse-dot-green"></span>
-                  SISTEMA CENTRAL OPERATIVO // LATENCIA &lt; 40ms
+                  SISTEMA CENTRAL OPERATIVO // DEMO EN VIVO
                 </div>
                 <div className="mono" style={{ fontSize: '0.72rem', color: 'var(--accent-teal)' }}>
                   V2.4 ONLINE
                 </div>
               </div>
 
-              <img
-                src="/assets/people/hero-founder-office.jpg"
-                alt="Idea Sintética — Plataforma Central en Operación Real"
-                width="1060"
-                height="596"
-                loading="eager"
-              />
-              <div className="hero-human-gradient-mask"></div>
+              <div className="hero-video-viewport">
+                <iframe
+                  id="heroNativeVideoFrame"
+                  src="https://www.youtube-nocookie.com/embed/nuHaSttuWKk"
+                  title="Idea Sintética // Demostración en Video"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowFullScreen
+                ></iframe>
+              </div>
             </div>
           </div>
         </div>
