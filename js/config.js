@@ -29,7 +29,7 @@ const CONFIG = {
   // Vimeo (ej: https://player.vimeo.com/video/TU_ID), Loom o un archivo .mp4 directo.
   video: {
     // Placeholder configurable
-    embedUrl: "https://www.youtube-nocookie.com/embed/dQw4w9WgXcQ?autoplay=1", // Reemplazar con tu enlace de video real
+    embedUrl: "https://www.youtube-nocookie.com/embed/nuHaSttuWKk?autoplay=1", // Reemplazar con tu enlace de video real
     title: "Demostración de Idea Sintética en Acción",
     badge: "Demo en video • 4 minutos"
   },

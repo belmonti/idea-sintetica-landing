@@ -14,7 +14,7 @@ export const CONFIG = {
 
   // Video Demo del Sistema
   video: {
-    embedUrl: "https://www.youtube-nocookie.com/embed/dQw4w9WgXcQ?autoplay=1",
+    embedUrl: "https://www.youtube-nocookie.com/embed/nuHaSttuWKk?autoplay=1",
     title: "Demostración de Idea Sintética en Acción",
     badge: "Demo en video • 4 minutos"
   },
