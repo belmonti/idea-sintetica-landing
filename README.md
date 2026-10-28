@@ -28,8 +28,8 @@ const CONFIG = {
     defaultMessage: "Hola, quiero más información sobre Idea Sintética",
     purchaseMessage: "Hola, quiero comenzar y contratar Idea Sintética",
     // Opcional: Si tienes una URL completa personalizada
-    customUrl: "https://wa.me/TUNUMERO?text=Hola,%20quiero%20más%20información%20sobre%20Idea%20Sintética",
-    customPurchaseUrl: "https://wa.me/TUNUMERO?text=Hola,%20quiero%20contratar%20Idea%20Sintética"
+    customUrl: "https://wa.link/b0ld5q",
+    customPurchaseUrl: "https://wa.link/b0ld5q"
   },
 
   // Video Demo del Sistema

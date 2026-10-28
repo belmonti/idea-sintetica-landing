@@ -15,13 +15,13 @@ const CONFIG = {
   // Enlace de WhatsApp
   // Puedes usar tu número en formato internacional (ejemplo: 54911XXXXXXXX, 521XXXXXXXXXX, 34XXXXXXXXX)
   whatsapp: {
-    phoneNumber: "TUNUMERO", // Reemplaza por tu número telefónico internacional sin "+" ni espacios
-    defaultMessage: "Hola, quiero más información sobre Idea Sintética",
-    purchaseMessage: "Hola, quiero comenzar y contratar Idea Sintética",
+    phoneNumber: "56956610325", // Número de WhatsApp internacional
+    defaultMessage: "Hola, quiero ingresar a la plataforma por favor.",
+    purchaseMessage: "Hola, quiero ingresar a la plataforma por favor.",
     // Si prefieres usar una URL directa personalizada completa, colócala aquí.
     // Si está vacía (""), se construirá automáticamente con el número y mensaje.
-    customUrl: "https://wa.me/TUNUMERO?text=Hola,%20quiero%20más%20información%20sobre%20Idea%20Sintética",
-    customPurchaseUrl: "https://wa.me/TUNUMERO?text=Hola,%20quiero%20contratar%20Idea%20Sintética"
+    customUrl: "https://wa.link/b0ld5q",
+    customPurchaseUrl: "https://wa.link/b0ld5q"
   },
 
   // Video Demo del Sistema

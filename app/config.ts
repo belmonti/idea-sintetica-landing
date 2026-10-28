@@ -5,11 +5,11 @@ export const CONFIG = {
 
   // Enlace de WhatsApp
   whatsapp: {
-    phoneNumber: "TUNUMERO",
-    defaultMessage: "Hola, quiero más información sobre Idea Sintética",
-    purchaseMessage: "Hola, quiero comenzar y contratar Idea Sintética",
-    customUrl: "https://wa.me/TUNUMERO?text=Hola,%20quiero%20más%20información%20sobre%20Idea%20Sintética",
-    customPurchaseUrl: "https://wa.me/TUNUMERO?text=Hola,%20quiero%20contratar%20Idea%20Sintética"
+    phoneNumber: "56956610325",
+    defaultMessage: "Hola, quiero ingresar a la plataforma por favor.",
+    purchaseMessage: "Hola, quiero ingresar a la plataforma por favor.",
+    customUrl: "https://wa.link/b0ld5q",
+    customPurchaseUrl: "https://wa.link/b0ld5q"
   },
 
   // Video Demo del Sistema
