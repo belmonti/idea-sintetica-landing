@@ -11,6 +11,7 @@ module.exports = {
         'bg-deep': '#05070c',
         'bg-surface': '#090d15',
         'bg-elevated': '#0f1523',
+        'bg-card': '#0c111c',
         'accent-teal': '#00f5c4',
         'accent-teal-dark': '#00c79f',
         'accent-lime': '#b4ff39',
